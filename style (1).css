@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02160b;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.wrapper {
+    background-image: url(./photo/Rectangle.jpg);
+    max-width: 1440px;
+    width: 100%;
+    height: 780px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 225px;
+    width: 100%;
+    height: 60px;
+}
+.text{
+    font-size: 2px;
+    z-index: -19;
+}
+.logotip {
+    background-image: url(./photo/path0.svg);
+    width: 68px;
+    height: 58px;
+}
+.word{
+    word-spacing: 100px;
+}
+.logo__text {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    justify-content: space-between;
+}
+
+.search {
+    background-image: url(./photo/Vector.svg);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.sign__in{
+    display: flex; 
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-width: 120px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.sign__in__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7; 
+    text-decoration: none;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+}
